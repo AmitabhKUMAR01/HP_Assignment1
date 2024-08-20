@@ -19,5 +19,10 @@
           location.reload();
         }
       });
+   $('input').focus(function() {
+        $(this).css('border-color', '#ff7e5f');
+      }).blur(function() {
+        $(this).css('border-color', '#ccc');
+      });
     });
   
